@@ -1,0 +1,269 @@
+/*font-family: 'Merriweather', serif;
+/*font-family: 'Indie Flower', cursive;
+*/
+/* etiquetas */
+body{
+	background-image: url(../pictures/fondo3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+/* etiquetas del menu */
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica Neue; 
+}
+
+/*titulo*/
+
+div#titulo{
+	width:100%;
+	margin-top:-5px;
+}
+
+p#header{
+	text-align: center;
+	font-size: 2.5em;
+	color:#9a9a9a;
+	padding:20px;
+}
+
+p#subheader{
+	text-align: center;
+	color:#EEC90D;
+	padding: 5px;
+	font-size: 1.3em;
+}
+
+header{
+	margin:20px auto;
+	width:1000px;
+	height:230px;
+	background-color: red;
+}
+
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float:left;
+	-webkit-transition: height .4s;
+}
+
+div#uno{
+	background-color: rgb(208,101,3);
+}
+
+div#dos{
+	background-color: rgb(233,147,26);
+}
+
+div#tres{
+	background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+}
+div#cinco{
+	background-color: rgb(22,107,90);
+}
+
+img.icon{
+	display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:40px;
+	padding:20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+a.texto{
+	font-size: 1.2em;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover{
+	height:250px;
+}
+
+div.contenedor:hover li{
+	margin-top: 70px;
+	opacity: 1;	
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+/* colores de los botones deacuerdo a algunos eventos especificos */
+.texto:link{text-decoration: none;}
+.texto:visited{color:white;text-decoration: none;}
+.texto:hover{color:silver;text-decoration: none; text-shadow: 0 0 3px silver;} /*text-shadow las palabras del menu se ven mas brillantes*/
+.texto:active{padding: 7px;color:white;text-decoration: none;}
+
+li{
+	float: center;
+	list-style-type: none;
+	padding top: 5px;
+	background: gray;
+	margin: 31px;
+	/* para que las esquinas se vean mejor */	
+	border-radius: 10px;
+	/* sombra para los botones */
+	box-shadow: 0 0 10px white inset;
+	text-align: center;
+	-webkit-transition: margin-top .4s;
+
+}
+
+/* se define la clase contenidos */
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+
+}
+
+h2{
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	margin-top: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+h3{
+	font-family: 'Merriweather', cursive;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+
+}
+
+/* se define el UL */
+ul{
+	margin: auto;
+	padding-top: 10px;
+}
+
+
+/* crear el css para la seccion */
+section{
+	width: 700px;
+	background: silver;	
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+aside{
+	width: 280px;
+	background: teal;
+	height: 600px;
+	float: left;
+	margin-left: 20px;	
+	margin-top: 20px;
+	border-radius: 10px;
+}
+/* ocupa todo el ancho de la pagina como tal */
+
+footer{
+	width: 1000px;
+	height: 20px;
+	background: maroon;
+	float:left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+p{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 30px;
+	text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
