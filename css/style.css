@@ -1,6 +1,9 @@
 /*font-family: 'Merriweather', serif;
-/*font-family: 'Indie Flower', cursive;
-*/
+/*font-family: 'Indie Flower', cursive;*/
+/*font-family: 'Libre Franklin', sans-serif;
+font-family: 'David Libre', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Alegreya Sans', sans-serif;
 /* etiquetas */
 body{
 	background-image: url(../pictures/fondo3.jpg);
@@ -144,14 +147,14 @@ li{
 }
 
 h2{
-	font-family: 'Indie Flower', cursive;
-	color: blue;
-	margin-top: 20px;
-	font-size: 25px;
+	font-family: 'Playfair Display', cursive;
+	color: black;
+	margin-top: 80px;
+	font-size: 23px;
 	text-align: center;
 }
 h3{
-	font-family: 'Merriweather';
+	font-family: 'Libre Franklin';
 	color: white;
 	font-size: 15px;
 	text-align: center;
