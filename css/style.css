@@ -25,7 +25,7 @@ p#header{
 	text-align: center;
 	font-size: 2.5em;
 	color:#9a9a9a;
-	padding:20px;
+	padding:5px;
 }
 
 p#subheader{
@@ -79,6 +79,14 @@ img.icon{
 	-webkit-transition:box-shadow .4s;
 }
 
+img{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 250px;
+	margin-top: 20px;
+
+
+}
 p.texto{
 	font-size: 1.2em;
 	color:white;
