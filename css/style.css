@@ -25,7 +25,7 @@ p#header{
 	text-align: center;
 	font-size: 2.5em;
 	color:#9a9a9a;
-	padding:5px;
+	padding:20px;
 }
 
 p#subheader{
@@ -80,12 +80,9 @@ img.icon{
 }
 
 img{
-	margin-top: 20px;
+	margin-top: -80px;
 	margin-left: 10px;
 	width: 250px;
-	margin-top: 20px;
-
-
 }
 p.texto{
 	font-size: 1.2em;
@@ -154,10 +151,11 @@ h2{
 	text-align: center;
 }
 h3{
-	font-family: 'Merriweather', cursive;
+	font-family: 'Merriweather';
 	color: white;
 	font-size: 15px;
 	text-align: center;
+	margin:-20px;
 
 }
 
@@ -190,8 +188,8 @@ aside{
 
 footer{
 	width: 1000px;
-	height: 20px;
-	background: maroon;
+	height: 60px;
+	background: black;
 	float:left;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -204,9 +202,29 @@ p{
 	line-height: 24px;
 	padding: 30px;
 	text-align: justify;
-
 }
 
+img.uno{
+  width: 140px;
+  margin-left: -10px;
+  margin-top: -70px;
+}
+img.dos{
+  width: 380px;
+  margin:10px auto; 
+  margin-top: 10px;
+  margin-right: -20px;
+
+}
+img.tres{
+  width: 50px;
+  margin-left: 115px;
+  margin-top: 60px;
+}
+img.cuatro{
+ width: 80px;
+margin: 20px;
+ }
 
 
 
