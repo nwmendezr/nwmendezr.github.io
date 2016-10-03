@@ -6,7 +6,7 @@ font-family: 'Playfair Display', serif;
 font-family: 'Alegreya Sans', sans-serif;
 /* etiquetas */
 body{
-	background-image: url(../pictures/fondo3.jpg);
+	background-image: url(../pictures/fondo2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;	
 }
@@ -87,14 +87,6 @@ img{
 	margin-left: 10px;
 	width: 300px;
 }
-p.texto{
-	font-size: 1.2em;
-	color:white;
-	text-align: center;
-	padding-top:10px;
-	opacity: .6;
-	-webkit-transition: padding-top .4s;
-}
 
 a.texto{
 	font-size: 1.2em;
@@ -154,11 +146,12 @@ h2{
 	text-align: center;
 }
 h3{
-	font-family: 'Libre Franklin';
+	font-family: 'Alegreya Sans';
 	color: white;
-	font-size: 15px;
+	font-size: 14px;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 25px;
+	margin-left: -220px;
 
 }
 
@@ -180,7 +173,7 @@ section{
 }
 aside{
 	width: 280px;
-	background: teal;
+	background-color: rgb(179,179,179);
 	height: 600px;
 	float: left;
 	margin-left: 20px;	
@@ -191,7 +184,7 @@ aside{
 
 footer{
 	width: 1000px;
-	height: 60px;
+	height: 80px;
 	background: black;
 	float:left;
 	margin-top: 20px;
@@ -204,8 +197,10 @@ p{
 	font-weight: bolder;
 	line-height: 24px;
 	padding: 30px;
-	text-align: justify;
+	text-align:center;
 }
+
+
 
 img.uno{
   width: 140px;
@@ -220,15 +215,20 @@ img.dos{
 
 }
 img.tres{
-  width: 50px;
-  margin-left: 115px;
+  width: 250px;
+  margin-left: 15px;
   margin-top: 60px;
 }
 img.cuatro{
 	width: 80px;
-	margin-top: -33px;
+	margin-top: -53px;
  }
 
+img.cinco{
+	width: 290px;
+	margin-top: -50px;
+	margin-left: 700px;
+ }
 
 
 
