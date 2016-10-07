@@ -1,0 +1,37 @@
+/* etiquetas */
+body{
+	background-image: url(../pictures/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+p#header{
+	text-align: center;
+	font-size: 2.5em;
+	color:#9a9a9a;
+	padding:30px;
+	font-weight: bolder;
+	line-height: 24px;
+}
+nav ul li {
+	
+}
+
+/* crear el css para la seccion */
+section{
+	width: 700px;
+	background: silver;	
+	height: 500px;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+
+}
+p{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 30px;
+	text-align:center;
+}
+

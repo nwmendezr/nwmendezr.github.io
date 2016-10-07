@@ -1,0 +1,14 @@
+/* etiquetas */
+body{
+	background-image: url(../pictures/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+p{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 30px;
+	text-align:center;
+}
